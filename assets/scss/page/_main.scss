@@ -274,12 +274,16 @@
     h3{
       @include tablet{
         font-size: 30px;
+        padding-bottom: 30px;
       }
       font-size: 38px;
       padding-bottom: 50px;
       font-weight: bold;
     }
     p{
+      @include mobile{
+        font-size: 20px;
+      }
       font-size: 22px;
       line-height: 1.5;
     }

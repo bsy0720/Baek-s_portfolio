@@ -46,7 +46,6 @@ $(function(){
       trigger:".sc-plan",
       start:"0% 0%",
       end:"100% 0%",  
-      // markers:true,
       scrub:0.3,
       pin:true,
       invalidateOnRefresh: true,
@@ -63,7 +62,6 @@ $(function(){
 
   const planList = document.querySelectorAll('.sc-plan .plan-item')
   planList.forEach(element => {
-    console.log(element);
     gsap.from(element, {
       opacity:0,
       yPercent:10,
@@ -73,7 +71,6 @@ $(function(){
         start: "0% 100%",
         end: "20% 70%",
         scrub: true,
-        // markers:true,
       }
     });
   });

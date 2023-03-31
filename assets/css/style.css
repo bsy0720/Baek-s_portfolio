@@ -585,9 +585,15 @@ body {
 @media (max-width: 1024px) {
   .sc-plan .plan-item h3 {
     font-size: 30px;
+    padding-bottom: 30px;
   }
 }
 .sc-plan .plan-item p {
   font-size: 22px;
   line-height: 1.5;
+}
+@media (max-width: 768px) {
+  .sc-plan .plan-item p {
+    font-size: 20px;
+  }
 }
