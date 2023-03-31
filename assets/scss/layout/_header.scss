@@ -1,0 +1,53 @@
+.header{
+  display: block;
+  position: relative;
+  width: 100%;
+  z-index: 100;
+  .group-fixed{
+    @include mobile{
+      padding: 40px 40px;
+    }
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0px;
+    padding: 40px 50px;
+    background: rgb(0 0 0 / 71%);
+    backdrop-filter: blur(89px);
+    .logo{
+    @include mobile{
+      font-size: 25px;
+    }
+      font-size: 30px;
+      font-weight: 500;
+    }
+  }
+  .group-nav{
+    display: flex;
+    .nav-list{
+      display: flex;
+      align-items: center;
+      gap: 45px;
+      .nav-item{
+        a{
+          @include mobile{
+            font-size: 18px;
+          }
+          text-transform: capitalize;
+          letter-spacing: 1px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+.notScroll {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  touch-action:none;
+}
+

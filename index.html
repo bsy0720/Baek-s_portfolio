@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baek's Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+  
+  <div class="cursor">
+    <div id="circle"></div>
+    <div id="dot"></div>
+  </div>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="group-fixed">
+        <h1 class="logo">
+          <a href="">
+            Baek's Portfolio
+          </a>
+        </h1>
+        <div class="group-nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#sc-video">MAIN</a></li>
+            <li class="nav-item"><a href="#sc-work">WORKS</a></li>
+            <li class="nav-item"><a href="#sc-contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      
+      <section class="sc-video" id="sc-video">
+        <div class="group-video">
+          <video class="main-video" autoplay loop muted>
+            <source src="./assets/images/galaxy.mp4" type="video/mp4">
+          </video>
+          <h2 class="text-area">
+            <span>PUBLISHER</span>
+          </h2>
+        </div>
+      </section>
+
+      <section class="sc-desc">
+        <div class="wrapper nospazio" data-fade=true> 
+          <div class="group-circle">
+            <svg id="badge-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="currentColor" width="300" height="300"> 
+              <path id="svg-text-circle" d="M 20 50 C 20 33.43 33.43 20 50 20 C 66.57 20 80 33.43 80 50 C 80 66.57 66.57 80 50 80 C 33.43 80 20 66.57 20 50 Z" fill="none"></path> 
+              <circle class="colore-badge" cx="100" cy="100" r="100"></circle> 
+              <text dy="-2" textLength="180"> 
+                <textPath class="circle-text" xlink:href="#svg-text-circle">Passionate • Publisher •</textPath> 
+              </text> 
+            </svg> 
+          </div>
+          <div class="group-text">
+            <p>
+              시맨틱 태그를 활용하여 코드명을 작성하며, 동적 표현을 CSS & JS로 구현하는 것을 좋아합니다. 
+              그리고 원활한 소통으로 프로젝트의 완성도를 높이며, 
+              바닐라 자바스크립트를 탄탄하게 배우면서 급변하는 프론트엔드 프레임워크도 함께 배워나가는 스펙트럼이 넓은 <span>퍼블리셔</span>가 되겠습니다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sc-work" id="sc-work">
+        <div class="group-title">
+          <div class="title-wrap">
+            <h2 class="title" data-fade=true>WORKS</h2>
+          </div>
+        </div>
+        <div class="group-work">
+          <ul class="work-list">
+            <li class="work-item">
+              <div class="img-box">
+                 <img src="./assets/images/zara.gif" alt="자라">
+                 <div class="link-wrap">
+                    <a href="https://bsy0720.github.io/ZARA/">GO SITE</a>
+                    <a href="https://velog.io/@bsy0720/ZARA%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A6%AC%EB%89%B4%EC%96%BC">VELOG</a>
+                 </div>
+              </div>
+              <div class="text-box">
+                <strong class="title">자라 리뉴얼코딩</strong>
+                <p class="desc">gsap으로 애니메이션을 구현하고, 레퍼런스를 참고하여 리뉴얼 한 적응형 웹사이트 입니다.</p>
+                <div class="spec">
+                  <span>PC</span>
+                  <span>Adaptive</span>
+                  <span>GSAP</span>
+                </div>
+              </div>
+            </li>
+            <li class="work-item">
+              <div class="img-box">
+                 <img src="./assets/images/flow.png" alt="플로우">
+                 <div class="link-wrap">
+                    <a href="https://bsy0720.github.io/flow/">GO SITE</a>
+                    <a href="https://velog.io/@bsy0720/FLOW-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9">VELOG</a>
+                 </div>
+              </div>
+              <div class="text-box">
+                <strong class="title">FLOW 클론코딩</strong>
+                <p class="desc">css의 애니메이션 기능하여 만든 반응형 웹사이트 입니다.</p>
+                <div class="spec">
+                  <span>Responsive</span>
+                  <span>Media Query</span>
+                  <span>GSAP</span>
+                  <span>Swiper</span>
+                </div>
+              </div>
+            </li>
+            <li class="work-item">
+              <div class="img-box">
+                 <img src="./assets/images/info-card.png" alt="지식인">
+                 <div class="link-wrap">
+                    <a href="https://bsy0720.github.io/Naver_IN/">GO SITE</a>
+                    <a href="https://velog.io/@bsy0720/%EC%A7%80%EC%8B%9DIN-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9">VELOG</a>
+                 </div>
+              </div>
+              <div class="text-box">
+                <strong class="title">지식IN 클론코딩</strong>
+                <p class="desc">css전처리기인 SCSS의 사용과 Swiper 슬라이드 사용에 중점을 둔 반응형 웹사이트 입니다.</p>
+                <div class="spec">
+                  <span>Responsive</span>
+                  <span>SCSS</span>
+                  <span>Swiper</span>
+                </div>
+              </div>
+            </li>
+            <li class="work-item">
+              <div class="img-box">
+                 <img src="./assets/images/coca-cola.gif" alt="코크플레이">
+                 <div class="link-wrap">
+                    <a href="https://bsy0720.github.io/coke_play/">GO SITE</a>
+                    <a href="https://velog.io/@bsy0720/%EC%BD%94%ED%81%AC%ED%94%8C%EB%A0%88%EC%9D%B4-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9">VELOG</a>
+                 </div>
+              </div>
+              <div class="text-box">
+                <strong class="title">코크플레이 클론코딩</strong>
+                <p class="desc">json을 활용힌 데이터 전송에 중점을 둔 모바일 사이트 입니다.</p>
+                <div class="spec">
+                  <span>Mobile </span>
+                  <span>Json</span>
+                  <span>Swiper</span>
+                </div>
+              </div>
+            </li>
+            <li class="work-item">
+              <div class="img-box">
+                 <img src="./assets/images/naver_careers.gif" alt="네이버커리어스">
+                 <div class="link-wrap">
+                    <a href="https://bsy0720.github.io/coke_play/">GO SITE</a>
+                    <a href="https://velog.io/@bsy0720/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%BB%A4%EB%A6%AC%EC%96%B4%EC%8A%A4-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9">VELOG</a>
+                 </div>
+              </div>
+              <div class="text-box">
+                <strong class="title">네이버커리어스 클론코딩</strong>
+                <p class="desc">미디어쿼리의 사용과 Swiper 슬라이드 사용에 중점을 둔 반응형 웹사이트 입니다.</p>
+                <div class="spec">
+                  <span>Responsive</span>
+                  <span>Media Query</span>
+                  <span>Swiper</span>
+                </div>
+              </div>
+            </li>
+            <li class="work-item">
+              <div class="img-box">
+                 <img src="./assets/images/south-korea-seoul.gif" alt="서울시청">
+                 <div class="link-wrap">
+                    <a href="https://bsy0720.github.io/seoul_city_hall/">GO SITE</a>
+                    <a href="https://velog.io/@bsy0720/%EC%84%9C%EC%9A%B8%EC%8B%9C%EC%B2%AD-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9">VELOG</a>
+                 </div>
+              </div>
+              <div class="text-box">
+                <strong class="title">서울시청 클론코딩</strong>
+                <p class="desc">tab키를 통한 움직임과 키보드 접근성에 중점을 둔 적응형 웹사이트 입니다.</p>
+                <div class="spec">
+                  <span>PC</span>
+                  <span>Adaptive</span>
+                  <span>Accessibility</span>
+                  <span>Swiper</span>
+                </div>
+              </div>
+            </li>
+            <li class="work-item">
+              <div class="img-box">
+                 <img src="./assets/images/naver.gif" alt="네이버">
+                 <div class="link-wrap">
+                    <a href="https://bsy0720.github.io/naver/">GO SITE</a>
+                    <a href="https://velog.io/@bsy0720/NAVER-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9">VELOG</a>
+                 </div>
+              </div>
+              <div class="text-box">
+                <strong class="title">네이버 클론코딩</strong>
+                <p class="desc">웹 접근성 및 시맨틱 마크업 구성에 중점을 둔 적응형 웹사이트 입니다.</p>
+                <div class="spec">
+                  <span>PC</span>
+                  <span>Adaptive</span>
+                  <span>smentic</span>
+                  <span>flex</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="sc-plan">
+        <h2 class="headline" data-fade=true>Work Plan</h2>
+        <div class="group-slide">
+          <ul class="plan-list">
+            <li class="plan-item">
+              <h3>💻 Java Script(ES6)</h3>
+              <p>ie가 지원이 종료되며 크로스브라우징의 의미가 없어지고 프레임워크에 사용이 많아지면서 
+                ES6문법은 필수가 되었습니다. 그렇기 때문에 라이브러리 없이도 자유자재로 쓸 수 있도록 공부중입니다.</p>
+            </li>
+            <li class="plan-item a1">
+              <h3>💻 GIT</h3>
+              <p>IT직종은 협업을 많이 하기 때문에 소통이 중요한 직종입니다. 그렇기 때문에 협업을 위해 필요한 GIT을
+                좀 더 전문적으로 공부하려고 합니다.
+              </p>
+            </li>
+            <li class="plan-item">
+              <h3>💻 REACT</h3>
+              <p>
+                인터랙티브한 웹사이트를 만들 때에는 정적 웹사이트와는 다르게 때에 따라 달라지는 화면을 보여줘야 하기에
+                이런 상황에 딱 적합한 프레임워크인 리액트를 이해하고 사용할 수 있게 공부하겠습니다.
+              </p>
+            </li>
+            <li class="plan-item">
+              <h3>💻 Node.js</h3>
+              <p>프론트엔드와 백엔드 개발자와의 원할한 소통을 위해 node js도 공부할 예정입니다.</p>
+            </li>
+            <li class="plan-item">
+              <h3>💻 TYPE SCRIPT</h3>
+              <p>
+                자바스크립트 이외에도 많이 사용되어지고 있는 것이 TYPE SCRIPT라고 생각합니다. 그렇기 때문에
+                TYPE SCRIPT도 자유자재로 구현할 수 있도록 공부하겠습니다.
+              </p>
+            </li>
+            <li class="plan-item">
+              <h3>💻 NEXT.js</h3>
+              <p>
+                React의 서버사이드렌더링을 쉽게 구현할 수 있게 도와주는 프레임워크입니다. React를 배우며 함께 공부해 나가겠습니다. 
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="sc-contact">
+      <section class="sc-contact" data-fade=true>
+        <div class="group-title">
+          <h2 class="title" >CONTACT</h2>
+        </div> 
+        <div class="group-text">
+          <p>
+            마지막까지 봐주셔서 감사합니다.
+            <br>
+            시각적으로 아름답고 화려한 디자인만을 만드는 것이 아닌, 
+            사용자가 최적의 경험을 할 수 있는 사이트를 제작하고 제공하는 것을 목표로 하고 있습니다.
+            그렇기에 하나에 안주하지 않고 열정적으로 계속 배워나가며 
+            결과만큼 과정도 중시하는 퍼블리셔 될 것임을 약속드립니다.
+          </p>
+        </div>
+        <div class="group-site">
+          <a href="https://github.com/bsy0720" class="link-site">GitHub</a>
+          <a href="https://velog.io/@bsy0720" class="link-site">Velog</a>
+        </div>
+      </section>
+
+      <section class="sc-marque">
+        <div class="marque-box">
+          <ul class="marque-list">
+            <li class="marque-item">Creative</li>
+            <li class="marque-item">-</li>
+            <li class="marque-item">Passionate</li>
+            <li class="marque-item">-</li>
+            <li class="marque-item">Challenging</li>
+            <li class="marque-item">-</li>
+          </ul>
+          <ul class="marque-list">
+            <li class="marque-item">Creative</li>
+            <li class="marque-item">-</li>
+            <li class="marque-item">Passionate</li>
+            <li class="marque-item">-</li>
+            <li class="marque-item">Challenging</li>
+            <li class="marque-item">-</li>
+          </ul>
+        </div>
+      </section>
+      <div class="copyright-box">
+        <p>©2023 BSY</p>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
