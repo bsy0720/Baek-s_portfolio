@@ -4,6 +4,9 @@
     @include mobile{
       padding: 90px 50px;
     }
+    @include mobile2{
+      padding: 90px 20px;
+    }
     border: 1px solid #fff;
     border-width: 1px 0px 0px 0px;
     padding: 150px 50px;
@@ -18,6 +21,9 @@
     }
     .group-text{
       p{
+        @include mobile2{
+          font-size: 15px;
+        }
         font-size: clamp(20px,2vw,50px);
         line-height: 1.5;
         padding-top: 30px;
@@ -34,6 +40,10 @@
       .link-site{
         @include mobile{
           font-size: 16px;
+        }
+        @include mobile2{
+          font-size: 15px;
+          padding: 10px 25px;
         }
         border: 1px solid #f5f4ee;
         padding: 16px 32px;
@@ -69,6 +79,9 @@
         display: flex;
         animation: marque-reverse 7s infinite linear;
         .marque-item{
+          @include mobile2{
+            font-size: 100px;
+          }
           font-size: 150px;
           letter-spacing: -.06em;
         }

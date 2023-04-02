@@ -7,6 +7,9 @@
     @include mobile{
       padding: 40px 40px;
     }
+    @include mobile2{
+      padding: 40px 10px;
+    }
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -20,6 +23,9 @@
     @include mobile{
       font-size: 25px;
     }
+    @include mobile2{
+      font-size: 19px;
+    }
       font-size: 30px;
       font-weight: 500;
     }
@@ -27,6 +33,9 @@
   .group-nav{
     display: flex;
     .nav-list{
+      @include mobile2{
+        gap: 10px;
+      }
       display: flex;
       align-items: center;
       gap: 45px;
@@ -35,6 +44,9 @@
           @include mobile{
             font-size: 18px;
           }
+          @include mobile2{
+            font-size: 13px;
+          }
           text-transform: capitalize;
           letter-spacing: 1px;
           font-size: 20px;
@@ -42,12 +54,5 @@
       }
     }
   }
-}
-
-.notScroll {
-  overflow: hidden;
-  width: 100%;
-  height: 100vh;
-  touch-action:none;
 }
 
