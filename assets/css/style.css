@@ -147,10 +147,10 @@ body {
 }
 @media (max-width: 768px) {
   .header .group-fixed {
-    padding: 40px 40px;
+    padding: 40px 20px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .header .group-fixed {
     padding: 40px 10px;
   }
@@ -164,7 +164,7 @@ body {
     font-size: 25px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .header .group-fixed .logo {
     font-size: 19px;
   }
@@ -177,7 +177,7 @@ body {
   align-items: center;
   gap: 45px;
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .header .group-nav .nav-list {
     gap: 10px;
   }
@@ -192,7 +192,7 @@ body {
     font-size: 18px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .header .group-nav .nav-list .nav-item a {
     font-size: 13px;
   }
@@ -211,7 +211,7 @@ body {
     padding: 90px 50px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .footer .sc-contact {
     padding: 90px 20px;
   }
@@ -231,7 +231,7 @@ body {
   padding-top: 30px;
   word-break: keep-all;
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .footer .sc-contact .group-text p {
     font-size: 15px;
   }
@@ -257,7 +257,7 @@ body {
     font-size: 16px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .footer .sc-contact .group-site .link-site {
     font-size: 15px;
     padding: 10px 25px;
@@ -296,7 +296,7 @@ body {
   font-size: 150px;
   letter-spacing: -0.06em;
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .footer .sc-marque .marque-box .marque-list .marque-item {
     font-size: 100px;
   }
@@ -482,7 +482,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .group-work .work-list {
     padding: 50px 20px;
   }
@@ -537,7 +537,7 @@ body {
   border: 1px solid #000;
   transition: 0.2s;
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .group-work .work-list .work-item .img-box .link-wrap a {
     font-size: 16px;
   }
@@ -557,7 +557,7 @@ body {
   font-weight: bold;
   letter-spacing: -0.05em;
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .group-work .work-list .work-item .text-box .title {
     font-size: 20px;
   }
@@ -577,7 +577,7 @@ body {
   padding: 20px 0;
   line-height: 1.5;
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .group-work .work-list .work-item .text-box .desc {
     font-size: 15px;
   }
@@ -592,7 +592,7 @@ body {
   padding: 8px 16px;
   border-radius: 20px;
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .group-work .work-list .work-item .text-box .spec span {
     font-size: 13px;
   }
@@ -627,7 +627,7 @@ body {
   padding: 0 50px;
   min-height: 300px;
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .sc-plan .plan-list {
     padding: 0 20px;
   }
@@ -643,7 +643,7 @@ body {
     width: 60vw;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .sc-plan .plan-item {
     padding: 30px;
   }
@@ -659,7 +659,7 @@ body {
     padding-bottom: 30px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .sc-plan .plan-item h3 {
     font-size: 20px;
   }
@@ -673,7 +673,7 @@ body {
     font-size: 20px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .sc-plan .plan-item p {
     font-size: 16px;
   }

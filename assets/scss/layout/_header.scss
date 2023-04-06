@@ -5,7 +5,7 @@
   z-index: 100;
   .group-fixed{
     @include mobile{
-      padding: 40px 40px;
+      padding: 40px 20px;
     }
     @include mobile2{
       padding: 40px 10px;
