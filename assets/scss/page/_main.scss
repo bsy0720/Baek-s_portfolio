@@ -95,6 +95,7 @@
           font-size: 20px;
           line-height: 35px;
         }
+        font-family: $krR;
         font-size: 2.1em;
         line-height: 50px;
         margin-left: -1px;
@@ -215,8 +216,8 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            font-family: $krB;
             font-size: 28px;
-            font-weight: bold;
             letter-spacing: -.05em;
             a{
               font-size: 18px;
@@ -233,6 +234,7 @@
             @include mobile2{
               font-size: 15px;
             }
+            font-family: $krR;
             font-size: 18px;
             padding: 20px 0;
             line-height: 1.5;
@@ -313,6 +315,7 @@
       @include mobile2{
         font-size: 16px;
       }
+      font-family: $krR;
       font-size: 22px;
       line-height: 1.5;
     }

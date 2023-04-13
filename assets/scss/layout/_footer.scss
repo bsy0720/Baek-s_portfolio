@@ -24,6 +24,7 @@
         @include mobile2{
           font-size: 15px;
         }
+        font-family: $krR;
         font-size: clamp(20px,2vw,50px);
         line-height: 1.5;
         padding-top: 30px;

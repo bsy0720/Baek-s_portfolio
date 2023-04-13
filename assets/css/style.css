@@ -78,7 +78,7 @@ html {
 body {
   background: #000;
   color: #fff;
-  font-family: "Poppins", "Pretendard-Regular";
+  font-family: "Poppins";
 }
 
 .cursor {
@@ -226,6 +226,7 @@ body {
   margin-top: 10px;
 }
 .footer .sc-contact .group-text p {
+  font-family: "Pretendard-Regular";
   font-size: clamp(20px, 2vw, 50px);
   line-height: 1.5;
   padding-top: 30px;
@@ -415,6 +416,7 @@ body {
   }
 }
 .sc-desc .wrapper .group-text p {
+  font-family: "Pretendard-Regular";
   font-size: 2.1em;
   line-height: 50px;
   margin-left: -1px;
@@ -553,8 +555,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-family: "Pretendard-Bold";
   font-size: 28px;
-  font-weight: bold;
   letter-spacing: -0.05em;
 }
 @media (max-width: 391px) {
@@ -573,6 +575,7 @@ body {
   background: #fff;
 }
 .group-work .work-list .work-item .text-box .desc {
+  font-family: "Pretendard-Regular";
   font-size: 18px;
   padding: 20px 0;
   line-height: 1.5;
@@ -665,6 +668,7 @@ body {
   }
 }
 .sc-plan .plan-item p {
+  font-family: "Pretendard-Regular";
   font-size: 22px;
   line-height: 1.5;
 }
